@@ -14,6 +14,13 @@
 
 // }
 
+// int main () {
+//     int a, b, c;
+//     scanf("%d %d %d", &a, &b, &c);
+//     printf("sum of a + b + c = %d", a + b + c);
+//     return 0;
+// }
+
 //Area of Square
 // int main(){
 //     int a;
@@ -35,8 +42,16 @@
 
 //Typpe conversion
 
-int main(){
-    int a = 4 * 3 / 6 * 2;
-    printf("Value of a : %d",a);
+// int main(){
+//     int a = 4 * 3 / 6 * 2;
+//     printf("Value of a : %d",a);
+//     return 0;
+// }
+
+// Semantic error
+int main (){
+    // int a = 10, b = 20;
+    int sum = 4 + 9 * 10;
+    printf("%d", sum);
     return 0;
 }
