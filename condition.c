@@ -90,20 +90,29 @@
 //     }
 // }
 
-int main() {
-    int marks;
-    printf("Enter Marks");
-    scanf("%d", &marks);
+// int main() {
+//     int marks;
+//     printf("Enter Marks");
+//     scanf("%d", &marks);
 
-    if(marks < 30){
-        printf("you got C");
-    }else if(marks >= 30 && marks < 70){
-        printf("you got B");
-    }else if(marks >=70 && marks < 90){
-        printf("you got A");
-    }else if(marks >= 90 && marks <= 100){
-        printf("you got A+");
-    }else{
-        printf("fail");
-    }
+//     if(marks < 30){
+//         printf("you got C");
+//     }else if(marks >= 30 && marks < 70){
+//         printf("you got B");
+//     }else if(marks >=70 && marks < 90){
+//         printf("you got A");
+//     }else if(marks >= 90 && marks <= 100){
+//         printf("you got A+");
+//     }else{
+//         printf("fail");
+//     }
+// }
+
+int main (){
+    int x = 2;
+     if( x == 1){
+        printf("x is = 1");
+     }else{
+        printf("x is not = 1");
+     }
 }
